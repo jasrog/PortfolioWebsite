@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+	cursor: default;
+	/*border: 1px solid black;*/
+}
+body {
+	background-color: #1E1E1E;
+	user-select: none;
+}
+
+.source-code-pro-font {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.space-grotesk-font {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.heading {
+	height: 80px;
+}
+
+.main-container {
+	width: 90%;
+	background-image: radial-gradient(circle, #2F3E46 50%, #1E1E1E);
+	height: auto;
+	padding: 60px;
+	margin: 25px auto;
+}
+
+.social-icons {
+	width: 10vw;
+	height: 6vh;
+	display: flex;
+	background-color: #5C8374;
+	position: fixed;
+	left: 5px;
+	gap: 15px;
+	border-radius: 0px 50px 50px 15px;
+	justify-content: space-evenly;
+}
+
+.icon {
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	max-width: 60%;
+	display: block;
+}
+
+.icon, a {
+	color: inherit;
+	transition: transform 0.2s;
+}
+
+.icon, a:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.pages {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	display: flex;
+	gap: 20px;
+	background-color: #5C8374;
+	height: auto;
+	width: 20%;
+	border-radius: 50px 0px 15px 50px;
+	justify-content: space-evenly;
+	position: fixed;
+}
+
+.page {
+	text-decoration: none;
+	font-weight: 600;
+	transition: transform 0.2s
+}
+
+.page, a{
+	color: #5C8374;
+}
+
+.pageButton:hover, a:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.pageButton {
+	margin-top: 5px;
+	background-color: #1E1E1E;
+	border-radius: 50px;
+	margin-bottom: 5px;
+	padding-right: 4px;
+	border: none;
+}
+
+.name{
+	color: #F5F5F5;
+	font-family: "Source Code Pro", monospace;
+}
+
+.description {
+	font-family: "Space Grotesk", sans-serif;
+	color: #F5F5F5;
+	width: 45%;
+	font-size: 2.6vh;
+}
+
+#LinkedIn {
+	padding-left: 4px;
+}
+
+#photo {
+	flex-shrink: 5;
+	width: 37%;
+	height: 50%;
+	border: 3px solid #5C8374;
+	border-radius: 20px;
+	margin-left: 5vw;
+}
+
+.subMain {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}

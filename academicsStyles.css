@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+.source-code-pro-font {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.space-grotesk-font {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+	background-color: #1E1E1E;
+	user-select: none;
+}
+
+.heading {
+	height: 80px;
+}
+
+.social-icons {
+	width: 10vw;
+	height: 6vh;
+	display: flex;
+	background-color: #5C8374;
+	position: fixed;
+	left: 5px;
+	gap: 15px;
+	border-radius: 0px 50px 50px 15px;
+	justify-content: space-evenly;
+}
+
+.icon {
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	max-width: 60%;
+	display: block;
+	padding-left: 5px;
+}
+
+.icon, a {
+	color: inherit;
+	transition: transform 0.2s;
+}
+
+.icon, a:hover {
+	transform: scale(1.1);
+}
+
+.pages {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	display: flex;
+	gap: 20px;
+	background-color: #5C8374;
+	height: auto;
+	width: 20%;
+	border-radius: 50px 0px 15px 50px;
+	justify-content: space-evenly;
+}
+
+.page {
+	text-decoration: none;
+	font-weight: 600;
+	transition: transform 0.2s
+}
+
+.page, a{
+	color: #5C8374;
+}
+
+.page, a:hover{
+	transform: scale(1.2);
+}
+
+.pageButton {
+	margin-top: 5px;
+	background-color: #1E1E1E;
+	border-radius: 50px;
+	margin-bottom: 5px;
+	padding-right: 4px;
+	border: none;
+}
+
+.pageButton:hover, a:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.title {
+	font-family: "Source Code Pro", monospace;
+	color: #F5F5F5;
+	text-align: center;
+	padding-top: 4px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 50px;
+}
+
+.extracurricular-section {
+	background-image: radial-gradient(circle, #2F3E46 70%, #1E1E1E);
+	padding: 5, 20px;
+	width: 47vw;
+	margin-bottom: 4vh;
+}
+
+#deca {
+	
+}
+
+#robotics {
+	
+}
+
+.extracurricular-title {
+	padding-left: 5vw;
+	font-size: 28px;
+	color: #F5F5F5;
+}
+
+.list {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.description {
+	font-family: "Space Grotesk", sans-serif;
+	color: #F5F5F5;
+	margin-right: 5px;
+	margin-left: 10px;
+	font-size: 2vh;
+	text-align: left;
+}
+
+.pic {
+	width: 250px;
+	margin: 2vw;
+	border: solid 3px #F5F5F5;
+	border-radius: 15px;
+}
+
+.pics {
+	
+}
+
+#frc {
+	width: 39vw;
+	margin: auto;
+}
+
+#singular {
+	display: grid;
+	place-items: center;
+	width: 39vw;
+	margin: auto;
+}
+
+.rotate {
+	transform: rotate(90deg);
+}
+
+.pdf {
+	height: 250px;
+	margin: 2vh;
+	border: solid 3px #F5F5F5;
+	border-radius: 15px;
+}
